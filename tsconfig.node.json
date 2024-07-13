@@ -9,6 +9,10 @@
     "strict": true,
     "noEmit": true,
     "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"],
+    },
   },
   "include": ["vite.config.ts", "api/*", "netlify/functions/*"],
 }
