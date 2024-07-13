@@ -30,7 +30,7 @@ export default function Form() {
       validationSchema={FormSchema}
       onSubmit={async (values: FormValues) => {
         const { status } = await fetch(
-          `${window.origin}/api${import.meta.env.VITE_FORM_ENDPOINT}`,
+          `${window.origin}${import.meta.env.VITE_FORM_ENDPOINT}`,
           {
             method: "POST",
             headers: {
