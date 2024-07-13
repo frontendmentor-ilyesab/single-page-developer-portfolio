@@ -1,99 +1,94 @@
-# Frontend Mentor - Single-page developer portfolio
+# Frontend Mentor - Single-page developer portfolio solution
 
-![Design preview for the Single-page developer portfolio coding challenge](./preview.jpg)
+This is a solution to the [Single-page developer portfolio challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+## Overview
 
-**To do this challenge, you need a good understanding of HTML, CSS, and basic JavaScript.**
+This is the fourth challenge in the **Modern Styling Roadmap**. In which we explore the different UI kits and libraries for styling modern websites.
 
-## The challenge
+This is also my first **PRO** Frontend Mentor Challenge. where I had access to the figma design file. and therefore could measure the space between objects, view the design system provided by the designer. and mimic a real world developer workflow.
 
-Your challenge is to build out this single-page portfolio and get it looking as close to the design as possible.
+The challenge was awesome but also quite difficult. I tried to respect the design as much as possible. while also working out the responsiveness of the webpage between the mobile / tablet / desktop screen sizes provided in the design.
 
-You can use any tools you like to help you complete the challenge. So, if you've got something you'd like to practice, feel free to give it a go.
+### The challenge
 
-Your users should be able to:
+Users should be able to:
 
 - Receive an error message when the `form` is submitted if:
-  - Any field is empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: Hook the form up so it sends and stores the user's enquiry (you can use a spreadsheet or Airtable to save the enquiries)
-- **Bonus**: Add your own details (image, skills, projects) to replace the ones in the design
+  - Any field is empty **(DONE)**
+  - The email address is not formatted correctly **(DONE)**
+- View the optimal layout for the interface depending on their device's screen size **(DONE)**
+- See hover and focus states for all interactive elements on the page **(DONE)**
+- **Bonus**: Hook the form up so it sends and stores the user's enquiry (you can use a spreadsheet or Airtable to save the enquiries) **(DONE)**
+- **Bonus**: Add your own details (image, skills, projects) to replace the ones in the design **(DONE)**
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-### Expected behaviour
+#### Mobile
 
-When the user clicks the "Contact me" call-to-action in the hero or projects section, the browser should scroll down to the contact form.
+![Screenshot Mobile](./screenshots/screenshot_mobile.png)
 
-## Where to find everything
+#### Tablet
 
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
+![Screenshot Tablet](./screenshots/screenshot_tablet.png)
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized. Some are reusable at multiple screen sizes. So if you don't see an image in a specific folder, it will typically be in another folder for that page.
+#### Desktop
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+![Screenshot Desktop](./screenshots/screenshot_desktop.png)
 
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project. Our fonts always come from [Google Fonts](https://fonts.google.com/).
+#### Desktop Active
 
-## Building your project
+![Screenshot Desktop Active](./screenshots/screenshot_active.png)
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### Links
 
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## Deploying your project
+## My process
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### Built with
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [TypeScript](https://www.typescriptlang.org/) - Type Checking Language Built on top of Javascript.
+- [Vite](https://vitejs.dev/) - Bundler and development environment for Frontend.
+- [ChakraUI](https://v2.chakra-ui.com/) - simple, modular and accessible component library.
+- [Formik](https://formik.org/) - Form Library for React and React Native
+- [Yup](https://www.npmjs.com/package/yup) - Schema builder for runtime value parsing and validation
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### What I learned
 
-## Create a custom `README.md`
+The first step I did was to configure the chakraUI theme to map to the different tokens in the design system provided in figma. I configured the different colors and overrided some of the styles of typography components such as **Heading** and **Text** and also the **Button** component.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+You can see this theme configuration in the _src/theme_ folder. This highlights one of the greatest advantages of **ChakraUI** you can customize the theming of components and theme tokens to align with your design system. use the components in react and you can override the customized components with style props for readable styling when you have one off modifications in components. and you can further remove repeating code by defining low level components. in essence you have a lot of possibilities to make your codebase modular and pretty organized.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+The form validation and logic is wired up using **Formik** and **Yup**. to register the form values upon submission to a google sheet. I used the [SheetDB API](https://docs.sheetdb.io/). At first I tried to go through google APIs but it seemed that authentication was quite complex so I used the **SheetDB API** which is made specifically for this purpose. you just login with your google account and provide it with you google sheet URL and it will create for you an API endpoint to interact with that particular Sheet.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+To keep the endpoint hidden I used [Vite Express](https://github.com/szymmis/vite-express). to integrate express with vite and make the actual logic for calling the **SheetDB API** on the backend while exposing an endpoint to the frontend to send the form values. This also required installing additional packages to make typescript work with node. and changing the scripts in package.json and the typescript configuration.
 
-## Submitting your solution
+I also customized the content to include my skills and details. overall it was a delight to work on this project and I learned really so much.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+### Continued development
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+I like to try out some other UI Kits in the future projects it's been nice to work with **ChakraUI** but I want to check some of the other popular UI kits.
 
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
+## Author
 
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
+- Frontend Mentor - [@ilyesab](https://www.frontendmentor.io/profile/ilyesab)
