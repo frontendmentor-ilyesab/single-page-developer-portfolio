@@ -8,10 +8,6 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "noEmit": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["*"],
-    },
     "allowImportingTsExtensions": true,
   },
   "include": ["vite.config.ts", "api/*", "netlify/functions/*"],
