@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "nodemon -w server.ts -x tsx -r dotenv/config server.ts dotenv_config_path=.env.local",
+    "dev": "nodemon -w api/server.ts -x tsx -r dotenv/config api/server.ts dotenv_config_path=.env.local",
     "build": "tsc -b && vite build",
-    "start": "NODE_ENV=production tsx -r dotenv/config server.ts dotenv_config_path=.env.local",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "start": "NODE_ENV=production tsx -r dotenv/config api/server.ts dotenv_config_path=.env.local",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
