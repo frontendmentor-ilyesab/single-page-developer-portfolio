@@ -12,6 +12,8 @@ This is a solution to the [Single-page developer portfolio challenge on Frontend
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Run Locally](#run-locally)
+  - [Deployment](#deployment)
 - [Author](#author)
 
 ## Overview
@@ -34,6 +36,10 @@ Users should be able to:
 - **Bonus**: Hook the form up so it sends and stores the user's enquiry (you can use a spreadsheet or Airtable to save the enquiries) **(DONE)**
 - **Bonus**: Add your own details (image, skills, projects) to replace the ones in the design **(DONE)**
 
+This is the google sheets that I used: https://docs.google.com/spreadsheets/d/11U938T-QM6zGUj9CcXlXpUu4_J0QqIIp_wT2ceiYkhA/edit?usp=sharing
+
+You can fill the form and head to the sheet above to see you submission added there.
+
 ### Screenshot
 
 #### Mobile
@@ -54,8 +60,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/single-page-portfolio-page-B4e4cPOweS)
+- Live Site URL: [Live Site URL](https://single-page-developer-portfolio-ilyesab.netlify.app/)
 
 ## My process
 
@@ -88,6 +94,23 @@ I also customized the content to include my skills and details. overall it was a
 ### Continued development
 
 I like to try out some other UI Kits in the future projects it's been nice to work with **ChakraUI** but I want to check some of the other popular UI kits.
+
+### Run Locally
+
+To run the app locally:
+
+1. clone the repo
+2. run `npm i` on the project root
+3. create a .env.local file from the .env.example file and fill in the values with your own.
+4. run `npm run dev` to spin up the development server. and access the app at **http://localhost:3000**
+
+### Deployment
+
+For deploying the site I choose [Netlify](https://www.netlify.com/). this is because I couldn't use the usual github pages. since I have the express api endpoint and github pages as far as I understand can only be used to serve static assets.
+
+With Netlify It serves the static assets the same way as github pages but it also supports deploying serverless functions along with the frontend. it comes with the limitation that the function has a maximum run time of 10 seconds but that works out for out use case.
+
+You can find the function/api in the _netlify/functions_ folder. the logic of the api is exported from that file to use in locally.
 
 ## Author
 

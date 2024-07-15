@@ -31,7 +31,7 @@ export default function LinkIcon({
   ...props
 }: StyleProps & { type: keyof typeof iconTypes }) {
   return (
-    <Link href={iconTypes[type].link} isExternal>
+    <Link aria-label={type.toString()} href={iconTypes[type].link} isExternal>
       <Icon
         as={iconTypes[type].icon}
         {...props}
