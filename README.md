@@ -106,11 +106,11 @@ To run the app locally:
 
 ### Deployment
 
-For deploying the site I choose [Netlify](https://www.netlify.com/). this is because I couldn't use the usual github pages. since I have the express api endpoint and github pages as far as I understand can only be used to serve static assets.
+For deploying the site I chose [Netlify](https://www.netlify.com/). this is because I couldn't use the usual github pages. since I have the express api endpoint and github pages as far as I understand can only be used to serve static assets.
 
-With Netlify It serves the static assets the same way as github pages but it also supports deploying serverless functions along with the frontend. it comes with the limitation that the function has a maximum run time of 10 seconds but that works out for out use case.
+With Netlify It serves the static assets the same way as github pages but it also supports deploying serverless functions along with the frontend. it comes with the limitation that the function has a maximum run time of 10 seconds but that works out for our use case.
 
-You can find the function/api in the _netlify/functions_ folder. the logic of the api is exported from that file to use in locally.
+You can find the function/api in the _netlify/functions_ folder. the logic of the api is exported from that file to use in **vite-express** locally.
 
 ## Author
 
